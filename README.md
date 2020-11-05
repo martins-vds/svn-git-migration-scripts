@@ -1,9 +1,9 @@
 # Useful scripts for SVN to Git migration
 
 1. Generate authors file
-```ps1
+<code></code><code>PowerShell
 .\Generate-Authors -SvnRepoDirectory <Path to SVN repo> -Revision "1" -OutFile .\authors-file.txt -UpdateFirst
-```
+</code><code></code>
 
 2. Initialize Git Repo
 ```ps1
@@ -16,6 +16,6 @@
 ```
 
 4. Clean up
-```
+```ps1
 .\Remove-Configs -GitRepoDirectory <Path to git folder>
 ```
